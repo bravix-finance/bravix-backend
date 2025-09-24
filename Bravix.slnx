@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/common/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/shared/">
+    <Project Path="src\shared\Bravix.Shared.EuMetrics\Bravix.Shared.EuMetrics.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

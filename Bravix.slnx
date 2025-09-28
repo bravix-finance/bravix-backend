@@ -1,9 +1,38 @@
 <Solution>
   <Folder Name="/common/">
     <File Path=".gitignore" />
+    <File Path="compose.yaml" />
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Build.props" />
   </Folder>
-  <Folder Name="/src/" />
+  <Folder Name="/src/">
+    <Project Path="src\Bravix.Host\Bravix.Host.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/lambdas/" />
+  <Folder Name="/src/lambdas/billing-report/">
+    <Project Path="src\lambdas\billing-report\Bravix.Lambda.BillingReport.Extraction\Bravix.Lambda.BillingReport.Extraction.csproj" Type="Classic C#" />
+    <Project Path="src\lambdas\billing-report\Bravix.Lambda.BillingReport.Normalization\Bravix.Lambda.BillingReport.Normalization.csproj" Type="Classic C#" />
+    <Project Path="src\lambdas\billing-report\Bravix.Lambda.BillingReport.Upload\Bravix.Lambda.BillingReport.Upload.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/modules/" />
+  <Folder Name="/src/modules/financial-analysis/">
+    <Project Path="src\modules\financial-analysis\Bravix.Module.FinancialAnalysis.Grpc\Bravix.Module.FinancialAnalysis.Grpc.csproj" Type="Classic C#" />
+    <Project Path="src\modules\financial-analysis\Bravix.Module.FinancialAnalysis.Migrations\Bravix.Module.FinancialAnalysis.Migrations.csproj" Type="Classic C#" />
+    <Project Path="src\modules\financial-analysis\Bravix.Module.FinancialAnalysis\Bravix.Module.FinancialAnalysis.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/modules/organization/">
+    <Project Path="src\modules\organization\Bravix.Module.Organization.Grpc\Bravix.Module.Organization.Grpc.csproj" Type="Classic C#" />
+    <Project Path="src\modules\organization\Bravix.Module.Organization.Migrations\Bravix.Module.Organization.Migrations.csproj" Type="Classic C#" />
+    <Project Path="src\modules\organization\Bravix.Module.Organization\Bravix.Module.Organization.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/modules/user/">
+    <Project Path="src\modules\user\Bravix.Module.User.Grpc\Bravix.Module.User.Grpc.csproj" Type="Classic C#" />
+    <Project Path="src\modules\user\Bravix.Module.User.Migrations\Bravix.Module.User.Migrations.csproj" Type="Classic C#" />
+    <Project Path="src\modules\user\Bravix.Module.User\Bravix.Module.User.csproj" Type="Classic C#" />
+  </Folder>
   <Folder Name="/src/shared/">
     <Project Path="src\shared\Bravix.Shared.EuMetrics\Bravix.Shared.EuMetrics.csproj" Type="Classic C#" />
+    <Project Path="src\shared\Bravix.Shared.Module\Bravix.Shared.Module.csproj" Type="Classic C#" />
   </Folder>
+  <Folder Name="/tests/" />
 </Solution>

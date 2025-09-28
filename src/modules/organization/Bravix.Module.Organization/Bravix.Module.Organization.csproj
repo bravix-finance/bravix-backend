@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="UUIDNext" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\Api\Grpc\" />
+    <Folder Include="src\Api\Rest\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+</Project>

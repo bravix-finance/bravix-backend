@@ -1,0 +1,2156 @@
+﻿{
+  "cn": "Gloria Group",
+  "fy": 2019,
+  "cur": "EUR",
+  "p": [
+    {
+      "y": 2019,
+      "pt": "FY",
+      "s": [
+        {
+          "n": "BALANS",
+          "ud": "EUR",
+          "um": 100,
+          "a": {
+            "am": 58366446,
+            "dc": "D"
+          },
+          "ss": [
+            {
+              "n": "Activa",
+              "a": {
+                "am": 34472254,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Materiële vaste activa",
+                  "a": {
+                    "am": 50326,
+                    "dc": "D"
+                  },
+                  "ss": [
+                    {
+                      "n": "Huurdersinvestering",
+                      "a": {
+                        "am": 21922,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0130 - Huurdersinvestering aanschafwaarde",
+                          "a": {
+                            "am": 2222340,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0135 - Afschrijving huurdersinvestering cumulatief",
+                          "a": {
+                            "am": 18194080,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0136 - Afschrijving huurdersinvestering lopend jaar",
+                          "a": {
+                            "am": 31200,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Inventarissen",
+                      "a": {
+                        "am": 28404,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0160 - Inventaris aanschafwaarde",
+                          "a": {
+                            "am": 2178510,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0161 - Inventaris investeringen",
+                          "a": {
+                            "am": 1045600,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0165 - Afschrijving inventaris cumulatief",
+                          "a": {
+                            "am": 153680,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0166 - Afschrijving inventaris lopend jaar",
+                          "a": {
+                            "am": 230000,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                },
+                {
+                  "n": "Financiële vaste activa",
+                  "a": {
+                    "am": 50308,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "0462 - Waarborgsom huur",
+                      "a": {
+                        "am": 4760000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "0463 - Waarborgsom",
+                      "a": {
+                        "am": 270760,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Voorraden",
+                  "a": {
+                    "am": 70120,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "3100 - Voorraad",
+                      "a": {
+                        "am": 6200000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "3150 - Voorraad emballage",
+                      "a": {
+                        "am": 812000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Kortlopende vorderingen",
+                  "a": {
+                    "am": 124680,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1580 - Vooruitbetaalde posten",
+                      "a": {
+                        "am": 3268000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "1586 - In depot BBZ lening",
+                      "a": {
+                        "am": 54630,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "1589 - Overige vorderingen",
+                      "a": {
+                        "am": 9200000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Liquide middelen",
+                  "a": {
+                    "am": 49288,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1010 - ING",
+                      "a": {
+                        "am": 4401388,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "1020 - ABN",
+                      "a": {
+                        "am": 527436,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Passiva",
+              "a": {
+                "am": 34472254,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Eigen vermogen",
+                  "a": {
+                    "am": 42946864,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Stortingen",
+                      "a": {
+                        "am": 4790000,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10615 - Stortingen",
+                          "a": {
+                            "am": 4590000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "10640 - KM-vergoeding",
+                          "a": {
+                            "am": 200000,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Opnamen",
+                      "a": {
+                        "am": 5746560,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10770 - Zorgtoes/ag",
+                          "a": {
+                            "am": 45200,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10800 - Belastingen",
+                          "a": {
+                            "am": 430000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10801 - Algemeen",
+                          "a": {
+                            "am": 2900000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10807 - Kosten auto",
+                          "a": {
+                            "am": 1200000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10810 - Verzekeringen",
+                          "a": {
+                            "am": 243000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10811 - Huur",
+                          "a": {
+                            "am": 480000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10812 - Grondlasten",
+                          "a": {
+                            "am": 37000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10813 - Energiekosten",
+                          "a": {
+                            "am": 283200,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10817 - Accountantskosten",
+                          "a": {
+                            "am": 42800,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10818 - Gebruik produkten",
+                          "a": {
+                            "am": 126000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10819 - Privé-aandeel kosten",
+                          "a": {
+                            "am": 49760,
+                            "dc": "D"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Vermogen",
+                      "a": {
+                        "am": 8625600,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10845 - Voertuigen zakelijk voor de BTW",
+                          "a": {
+                            "am": 8625600,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": [
+                    {
+                      "rn": "0910 - Bedrijfsvermogen",
+                      "a": {
+                        "am": 33364704,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Langlopende schulden",
+                  "a": {
+                    "am": 8474610,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Lening Grch",
+                      "a": {
+                        "am": 1312500,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0510 - Lening Grch oorspronkelijk groot",
+                          "a": {
+                            "am": 22000000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0511 - Lening Grch aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 19082400,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0512 - Lening Grch aflossingen lopend jaar",
+                          "a": {
+                            "am": 917600,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0513 - Lening Grch aflossingen komend jaar",
+                          "a": {
+                            "am": 687500,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening Trip",
+                      "a": {
+                        "am": 7162110,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0515 - Lening Trip oorspronkelijk groot",
+                          "a": {
+                            "am": 14566990,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0516 - Lening Trip aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 8524060,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0517 - Lening Trip aflossingen lopend jaar",
+                          "a": {
+                            "am": 1456680,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0518 - Lening Trip aflossingen komend jaar",
+                          "a": {
+                            "am": 1456680,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0519 - Lening Trip bijtelling niet betaalde rente",
+                          "a": {
+                            "am": 4032540,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening LP",
+                      "a": {
+                        "am": 0,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0525 - Lening oorspronkelijk groot",
+                          "a": {
+                            "am": 2765000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0526 - Lening aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 2212000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0527 - Lening aflossingen lopend jaar",
+                          "a": {
+                            "am": 553000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0528 - Lening aflossingen komend jaar",
+                          "a": {
+                            "am": 553000,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening",
+                      "a": {
+                        "am": 0,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0530 - Lening oorspronkelijk groot",
+                          "a": {
+                            "am": 740000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0531 - Lening aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 592000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0532 - Lening aflossingen lopend jaar",
+                          "a": {
+                            "am": 148000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0533 - Lening aflossingen komend jaar",
+                          "a": {
+                            "am": 148000,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                },
+                {
+                  "n": "Kortlopende schulden",
+                  "a": {
+                    "am": 34443000,
+                    "dc": "C"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1700 - Crediteuren",
+                      "a": {
+                        "am": 28030000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1701 - Crediteur belastingdienst",
+                      "a": {
+                        "am": 1856000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1987 - Te betalen financieringskosten",
+                      "a": {
+                        "am": 542000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1988 - Schuld KC & Z",
+                      "a": {
+                        "am": 900000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1989 - Overige schulden",
+                      "a": {
+                        "am": 1995000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1990 - Aflossingsverplichting leningen",
+                      "a": {
+                        "am": 4832000,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            }
+          ],
+          "r": []
+        },
+        {
+          "n": "WINST- EN VERLIESREKENING",
+          "ud": "EUR",
+          "um": 100,
+          "a": {
+            "am": 181049029,
+            "dc": "D"
+          },
+          "ss": [
+            {
+              "n": "Opbrengsten",
+              "a": {
+                "am": 180049029,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Omzet",
+                  "a": {
+                    "am": 180049029,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Omzet 21 %",
+                      "a": {
+                        "am": 180049029,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "O - 8110 - Omzet 21%",
+                          "a": {
+                            "am": 180049029,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Kostprijs verkopen",
+              "a": {
+                "am": 72793300,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Inkopen",
+                  "a": {
+                    "am": 72793300,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "7110 - Inkopen olijf olie",
+                      "a": {
+                        "am": 3820000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7120 - Inkopen olijven",
+                      "a": {
+                        "am": 781300,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7125 - Inkopen big-bags",
+                      "a": {
+                        "am": 1564000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7130 - Inkopen zonnebloemolie",
+                      "a": {
+                        "am": 19690000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7340 - Inkopen lijnzaaden",
+                      "a": {
+                        "am": 45650000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7341 - Inkopen mosterd",
+                      "a": {
+                        "am": 848280,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7342 - Inkopen kikkerveten",
+                      "a": {
+                        "am": 4936080,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7343 - Inkopen granen",
+                      "a": {
+                        "am": 1690000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7350 - Inkopen SFmeal",
+                      "a": {
+                        "am": 6448000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7360 - Inkopen dressings",
+                      "a": {
+                        "am": 3035060,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7390 - Ontvangen omzetbonussen",
+                      "a": {
+                        "am": 12409640,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "7395 - Verbruiken",
+                      "a": {
+                        "am": 1630200,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Kosten",
+              "a": {
+                "am": 49889283,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Afschrijvingen",
+                  "a": {
+                    "am": 1194000,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4125 - Afschrijving huurdersinvestering",
+                      "a": {
+                        "am": 360000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4160 - Afschrijving inventaris",
+                      "a": {
+                        "am": 834000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Huisvestingskosten",
+                  "a": {
+                    "am": 28387430,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4310 - Onderhoud gebouw",
+                      "a": {
+                        "am": 1732000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4312 - Grond- en andere lasten",
+                      "a": {
+                        "am": 840000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4316 - Schoonmaakkosten",
+                      "a": {
+                        "am": 900000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4318 - Containerkosten",
+                      "a": {
+                        "am": 1680000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4321 - Gas, water, electra",
+                      "a": {
+                        "am": 5235430,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4330 - Huur onroerend goed",
+                      "a": {
+                        "am": 18000000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Inventariskosten",
+                  "a": {
+                    "am": 1597213,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4410 - Onderhoud inventaris",
+                      "a": {
+                        "am": 640000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4412 - Kleine aanschaffingen",
+                      "a": {
+                        "am": 957213,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Autokosten",
+                  "a": {
+                    "am": 250000,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4590 - KM-vergoeding",
+                      "a": {
+                        "am": 250000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Verkoopkosten",
+                  "a": {
+                    "am": 8808660,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4610 - Reclamekosten",
+                      "a": {
+                        "am": 56800,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4612 - Transport",
+                      "a": {
+                        "am": 3297800,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4625 - Pakhuis",
+                      "a": {
+                        "am": 2067000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4676 - Marktonderzoek",
+                      "a": {
+                        "am": 467000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4680 - Inernetrectamekosten",
+                      "a": {
+                        "am": 130000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4689 - Haven pakhuis",
+                      "a": {
+                        "am": 2790060,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Algemene kosten",
+                  "a": {
+                    "am": 6876880,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4815 - Abonnementen/contributies",
+                      "a": {
+                        "am": 990000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4820 - Accountantskosten",
+                      "a": {
+                        "am": 2480000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4830 - Verzekeringen algemeen",
+                      "a": {
+                        "am": 1379800,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4840 - Telefoon- en faxkosten",
+                      "a": {
+                        "am": 820000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4841 - Internet",
+                      "a": {
+                        "am": 38000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4870 - Schouwing",
+                      "a": {
+                        "am": 1036000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4881 - Werkkleding",
+                      "a": {
+                        "am": 123080,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4884 - Kosten te late betaling",
+                      "a": {
+                        "am": 205000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4885 - Boete belastingen",
+                      "a": {
+                        "am": 50000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4889 - Overige algemene kosten",
+                      "a": {
+                        "am": 30000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4895 - Aandeel telefoon",
+                      "a": {
+                        "am": 250000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4896 - Aandeel accountant",
+                      "a": {
+                        "am": 25000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Kosten financiering",
+                  "a": {
+                    "am": 2775100,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4910 - Rente en bankkosten",
+                      "a": {
+                        "am": 989000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4920 - Rente lening G",
+                      "a": {
+                        "am": 700000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4921 - Rente lening BBZ",
+                      "a": {
+                        "am": 965000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4925 - Rente crediteuren",
+                      "a": {
+                        "am": 78000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4940 - Rente belastingdienst",
+                      "a": {
+                        "am": 100000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "8940 - Rente belastingdienst ontvangen",
+                      "a": {
+                        "am": 56900,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Buitengewone baten en lasten",
+              "a": {
+                "am": 1000000,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Uitzonderlijke opbrengsten en kosten",
+                  "a": {
+                    "am": 1000000,
+                    "dc": "C"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "9010 - Buitengewone baten",
+                      "a": {
+                        "am": 1000000,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            }
+          ],
+          "r": []
+        }
+      ]
+    },
+    {
+      "y": 2018,
+      "pt": "FY",
+      "s": [
+        {
+          "n": "BALANS",
+          "ud": "EUR",
+          "um": 100,
+          "a": {
+            "am": 51150500,
+            "dc": "D"
+          },
+          "ss": [
+            {
+              "n": "Activa",
+              "a": {
+                "am": 27912910,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Materiële vaste activa",
+                  "a": {
+                    "am": 44020,
+                    "dc": "D"
+                  },
+                  "ss": [
+                    {
+                      "n": "Huurdersinvestering",
+                      "a": {
+                        "am": 22234,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0130 - Huurdersinvestering aanschafwaarde",
+                          "a": {
+                            "am": 20767340,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0135 - Afschrijving huurdersinvestering cumulatief",
+                          "a": {
+                            "am": 0,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0136 - Afschrijving huurdersinvestering lopend jaar",
+                          "a": {
+                            "am": 349820,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Inventarissen",
+                      "a": {
+                        "am": 21785,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0160 - Inventaris aanschafwaarde",
+                          "a": {
+                            "am": 19326180,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0161 - Inventaris investeringen",
+                          "a": {
+                            "am": 1369830,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0165 - Afschrijving inventaris cumulatief",
+                          "a": {
+                            "am": 18040840,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0166 - Afschrijving inventaris lopend jaar",
+                          "a": {
+                            "am": 476660,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                },
+                {
+                  "n": "Financiële vaste activa",
+                  "a": {
+                    "am": 50308,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "0462 - Waarborgsom huur",
+                      "a": {
+                        "am": 4760000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "0463 - Waarborgsom",
+                      "a": {
+                        "am": 270760,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Voorraden",
+                  "a": {
+                    "am": 45973,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "3100 - Voorraad",
+                      "a": {
+                        "am": 3189707,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "3150 - Voorraad emballage",
+                      "a": {
+                        "am": 1407493,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Kortlopende vorderingen",
+                  "a": {
+                    "am": 102443,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1580 - Vooruitbetaalde posten",
+                      "a": {
+                        "am": 1587500,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "1589 - Overige vorderingen",
+                      "a": {
+                        "am": 8602200,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Liquide middelen",
+                  "a": {
+                    "am": 36386,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1010 - ING",
+                      "a": {
+                        "am": 3521240,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "1020 - ABN",
+                      "a": {
+                        "am": 117350,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Passiva",
+              "a": {
+                "am": 27912910,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Eigen vermogen",
+                  "a": {
+                    "am": 39693400,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Stortingen",
+                      "a": {
+                        "am": 4381080,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10615 - Stortingen",
+                          "a": {
+                            "am": 4280760,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "10640 - KM-vergoeding",
+                          "a": {
+                            "am": 100320,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Opnamen",
+                      "a": {
+                        "am": 4767420,
+                        "dc": "D"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10770 - Zorgtoes/ag",
+                          "a": {
+                            "am": 34300,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10800 - Belastingen",
+                          "a": {
+                            "am": 450000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10801 - Algemeen",
+                          "a": {
+                            "am": 2605435,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10807 - Kosten auto",
+                          "a": {
+                            "am": 512743,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10810 - Verzekeringen",
+                          "a": {
+                            "am": 103339,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10811 - Huur",
+                          "a": {
+                            "am": 600000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10812 - Grondlasten",
+                          "a": {
+                            "am": 36587,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10813 - Energiekosten",
+                          "a": {
+                            "am": 242622,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10817 - Accountantskosten",
+                          "a": {
+                            "am": 30250,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10818 - Gebruik produkten",
+                          "a": {
+                            "am": 196021,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "10819 - Privé-aandeel kosten",
+                          "a": {
+                            "am": 24723,
+                            "dc": "D"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Vermogen",
+                      "a": {
+                        "am": 7438020,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "10845 - Voertuigen zakelijk voor de BTW",
+                          "a": {
+                            "am": 7438020,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": [
+                    {
+                      "rn": "0910 - Bedrijfsvermogen",
+                      "a": {
+                        "am": 31869040,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Langlopende schulden",
+                  "a": {
+                    "am": 11780490,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Lening Grch",
+                      "a": {
+                        "am": 917600,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0510 - Lening Grch oorspronkelijk groot",
+                          "a": {
+                            "am": 20000000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0511 - Lening Grch aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 14012170,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0512 - Lening Grch aflossingen lopend jaar",
+                          "a": {
+                            "am": 2446430,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0513 - Lening Grch aflossingen komend jaar",
+                          "a": {
+                            "am": 2623800,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening Trip",
+                      "a": {
+                        "am": 10161890,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0515 - Lening Trip oorspronkelijk groot",
+                          "a": {
+                            "am": 14566090,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0516 - Lening Trip aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 6167380,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0517 - Lening Trip aflossingen lopend jaar",
+                          "a": {
+                            "am": 900000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0518 - Lening Trip aflossingen komend jaar",
+                          "a": {
+                            "am": 1456680,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0519 - Lening Trip bijtelling niet betaalde rente",
+                          "a": {
+                            "am": 4119860,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening LP",
+                      "a": {
+                        "am": 553000,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0525 - Lening oorspronkelijk groot",
+                          "a": {
+                            "am": 2765000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0526 - Lening aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 1106000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0527 - Lening aflossingen lopend jaar",
+                          "a": {
+                            "am": 553000,
+                            "dc": "D"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "n": "Lening",
+                      "a": {
+                        "am": 148000,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "0530 - Lening oorspronkelijk groot",
+                          "a": {
+                            "am": 740000,
+                            "dc": "C"
+                          }
+                        },
+                        {
+                          "rn": "0531 - Lening aflossingen t/m vorig boekjaar",
+                          "a": {
+                            "am": 296000,
+                            "dc": "D"
+                          }
+                        },
+                        {
+                          "rn": "0532 - Lening aflossingen lopend jaar",
+                          "a": {
+                            "am": 148000,
+                            "dc": "D"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                },
+                {
+                  "n": "Kortlopende schulden",
+                  "a": {
+                    "am": 50666640,
+                    "dc": "C"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "1700 - Crediteuren",
+                      "a": {
+                        "am": 34117350,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1701 - Crediteur belastingdienst",
+                      "a": {
+                        "am": 1395000,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1987 - Te betalen financieringskosten",
+                      "a": {
+                        "am": 434120,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1988 - Schuld KC & Z",
+                      "a": {
+                        "am": 7875210,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1989 - Overige schulden",
+                      "a": {
+                        "am": 4853480,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "1990 - Aflossingsverplichting leningen",
+                      "a": {
+                        "am": 4781480,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            }
+          ],
+          "r": []
+        },
+        {
+          "n": "WINST- EN VERLIESREKENING",
+          "ud": "EUR",
+          "um": 100,
+          "a": {
+            "am": 154193900,
+            "dc": "D"
+          },
+          "ss": [
+            {
+              "n": "Opbrengsten",
+              "a": {
+                "am": 152292900,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Omzet",
+                  "a": {
+                    "am": 152292900,
+                    "dc": "C"
+                  },
+                  "ss": [
+                    {
+                      "n": "Omzet 21 %",
+                      "a": {
+                        "am": 152292900,
+                        "dc": "C"
+                      },
+                      "ss": [],
+                      "r": [
+                        {
+                          "rn": "O - 8110 - Omzet 21%",
+                          "a": {
+                            "am": 152292900,
+                            "dc": "C"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "r": []
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Kostprijs verkopen",
+              "a": {
+                "am": 56024960,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Inkopen",
+                  "a": {
+                    "am": 56024960,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "7110 - Inkopen olijf olie",
+                      "a": {
+                        "am": 5000770,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7125 - Inkopen big-bags",
+                      "a": {
+                        "am": 682710,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7130 - Inkopen zonnebloemolie",
+                      "a": {
+                        "am": 8813270,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7340 - Inkopen lijnzaaden",
+                      "a": {
+                        "am": 37059150,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7342 - Inkopen kikkerveten",
+                      "a": {
+                        "am": 4571190,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7343 - Inkopen granen",
+                      "a": {
+                        "am": 1790870,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7350 - Inkopen SFmeal",
+                      "a": {
+                        "am": 4317510,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7360 - Inkopen dressings",
+                      "a": {
+                        "am": 3211360,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "7390 - Ontvangen omzetbonussen",
+                      "a": {
+                        "am": 9202200,
+                        "dc": "C"
+                      }
+                    },
+                    {
+                      "rn": "7395 - Verbruiken",
+                      "a": {
+                        "am": 1849250,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Kosten",
+              "a": {
+                "am": 47018940,
+                "dc": "D"
+              },
+              "ss": [
+                {
+                  "n": "Afschrijvingen",
+                  "a": {
+                    "am": 826480,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4125 - Afschrijving huurdersinvestering",
+                      "a": {
+                        "am": 349800,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4160 - Afschrijving inventaris",
+                      "a": {
+                        "am": 476660,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Huisvestingskosten",
+                  "a": {
+                    "am": 28957040,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4310 - Onderhoud gebouw",
+                      "a": {
+                        "am": 1704840,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4312 - Grond- en andere lasten",
+                      "a": {
+                        "am": 823850,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4316 - Schoonmaakkosten",
+                      "a": {
+                        "am": 912240,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4318 - Containerkosten",
+                      "a": {
+                        "am": 1500690,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4321 - Gas, water, electra",
+                      "a": {
+                        "am": 6015420,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4330 - Huur onroerend goed",
+                      "a": {
+                        "am": 18000000,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Inventariskosten",
+                  "a": {
+                    "am": 1609350,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4410 - Onderhoud inventaris",
+                      "a": {
+                        "am": 778060,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4412 - Kleine aanschaffingen",
+                      "a": {
+                        "am": 831290,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Autokosten",
+                  "a": {
+                    "am": 100320,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4590 - KM-vergoeding",
+                      "a": {
+                        "am": 100320,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Verkoopkosten",
+                  "a": {
+                    "am": 6632110,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4610 - Reclamekosten",
+                      "a": {
+                        "am": 104130,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4612 - Transport",
+                      "a": {
+                        "am": 1697430,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4625 - Pakhuis",
+                      "a": {
+                        "am": 2515130,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4676 - Marktonderzoek",
+                      "a": {
+                        "am": 366000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4680 - Inernetrectamekosten",
+                      "a": {
+                        "am": 80830,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4689 - Haven pakhuis",
+                      "a": {
+                        "am": 1868590,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Algemene kosten",
+                  "a": {
+                    "am": 7338800,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4815 - Abonnementen/contributies",
+                      "a": {
+                        "am": 1064140,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4820 - Accountantskosten",
+                      "a": {
+                        "am": 2500000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4830 - Verzekeringen algemeen",
+                      "a": {
+                        "am": 1312220,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4840 - Telefoon- en faxkosten",
+                      "a": {
+                        "am": 817420,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4841 - Internet",
+                      "a": {
+                        "am": 38400,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4870 - Schouwing",
+                      "a": {
+                        "am": 1041190,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4881 - Werkkleding",
+                      "a": {
+                        "am": 658950,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4884 - Kosten te late betaling",
+                      "a": {
+                        "am": 246000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4885 - Boete belastingen",
+                      "a": {
+                        "am": 100000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4889 - Overige algemene kosten",
+                      "a": {
+                        "am": 14840,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4895 - Aandeel telefoon",
+                      "a": {
+                        "am": 250000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4896 - Aandeel accountant",
+                      "a": {
+                        "am": 204360,
+                        "dc": "D"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "n": "Kosten financiering",
+                  "a": {
+                    "am": 1554840,
+                    "dc": "D"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "4910 - Rente en bankkosten",
+                      "a": {
+                        "am": 436950,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4920 - Rente lening G",
+                      "a": {
+                        "am": 434120,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4921 - Rente lening BBZ",
+                      "a": {
+                        "am": 578920,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4925 - Rente crediteuren",
+                      "a": {
+                        "am": 47850,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "4940 - Rente belastingdienst",
+                      "a": {
+                        "am": 97000,
+                        "dc": "D"
+                      }
+                    },
+                    {
+                      "rn": "8940 - Rente belastingdienst ontvangen",
+                      "a": {
+                        "am": 40000,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            },
+            {
+              "n": "Buitengewone baten en lasten",
+              "a": {
+                "am": 1901000,
+                "dc": "C"
+              },
+              "ss": [
+                {
+                  "n": "Uitzonderlijke opbrengsten en kosten",
+                  "a": {
+                    "am": 1901000,
+                    "dc": "C"
+                  },
+                  "ss": [],
+                  "r": [
+                    {
+                      "rn": "9010 - Buitengewone baten",
+                      "a": {
+                        "am": 1901000,
+                        "dc": "C"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "r": []
+            }
+          ],
+          "r": []
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@ public class FinancialRecordService : IFinancialRecordService
         throw new NotImplementedException();
     }
 
-    public Task<FinancialStatementModel[]> GetFinancialRecords(GetFinancialRecordsCommand command, CancellationToken token)
+    public Task<FinancialRecordModel[]> GetFinancialRecords(GetFinancialRecordsCommand command, CancellationToken token)
     {
         throw new NotImplementedException();
     }

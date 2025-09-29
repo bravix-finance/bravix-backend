@@ -1,32 +1,10 @@
 ﻿using Bravix.Module.FinancialAnalysis.Services.FinancialRecord.Models;
 using NodaMoney;
 
-namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
+namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
 
-internal record struct FinancialMetric
+public record struct FinancialMetric
 {
-    internal record Context
-    {
-        private readonly Dictionary<int, Dictionary<string, FinancialRecordModel>> _allRecords;
-        private readonly int _latestYear; 
-        
-        public Context(IEnumerable<FinancialRecordModel> records)
-        {
-            _allRecords = records
-                .GroupBy(x => x.Year)
-                .ToDictionary(
-                    x => x.Key, 
-                    i => i.ToDictionary(x => x.Key)
-                    );
-            
-            _latestYear = _allRecords.Keys.Max();
-        }
-        
-        public IEnumerable<Dictionary<string, FinancialRecordModel>> Records => _allRecords.Values;
-        
-        public Dictionary<string, FinancialRecordModel> Latest => _allRecords[_latestYear];
-    }
-    
     public FinancialMetric(
         string key)
     {
@@ -84,6 +62,18 @@ internal record struct FinancialMetric
             dict => a.GetAmount(dict) / b
         );
     }
+    
+    public static FinancialMetric operator /(decimal a, FinancialMetric b)
+    {
+        return new FinancialMetric(
+            $"{a}/{b.Key}",
+            b.DependentKeys.ToArray(),
+            dict =>
+            {
+                var bAmount = b.GetAmount(dict);
+                return new Money(a / bAmount.Amount, bAmount.Currency);
+            });
+    }
 
     public static FinancialMetric operator *(FinancialMetric a, decimal b)
     {
@@ -101,5 +91,13 @@ internal record struct FinancialMetric
             b.DependentKeys.ToArray(),
             dict => a * b.GetAmount(dict)
         );
+    }
+}
+
+public static class FinancialMetricHelper
+{
+    public static FinancialMetric Monthly(this FinancialMetric metric)
+    {
+        return metric / 12;
     }
 }

@@ -2,22 +2,23 @@
 
 namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
 
-public record FinancialReportModel(
+public record BalanceReportModel(
     decimal CurrentLiquidityRatio,
     decimal QuickRatio,
     decimal AbsoluteLiquidityRatio,
     decimal InventoryTurnoverRatio,
     decimal ReceivablesTurnoverRatio,
     decimal AssetTurnover,
-    decimal AverageTurnoverPeriodOfAccountsReceivable,
+    decimal Dso,
     decimal NetProfitMargin,
-    decimal ReturnOnAssets,
-    decimal ReturnOnEquity,
+    decimal Roa,
+    decimal Roe,
     decimal EquityRatio,
-    decimal DebtToIncomeRatio,
-    decimal DebtServiceCoverageRatio,
-    decimal ReturnOnInvestment,
+    decimal Dti,
+    decimal Dscr,
+    decimal Roi,
     decimal WorkingCapital,
     decimal EfficiencyRatio,
-    decimal DebtToEbitda
-);
+    decimal DebtToEbitda,
+    decimal DebtServiceCoverageRatio
+) : IFinancialReportModel;

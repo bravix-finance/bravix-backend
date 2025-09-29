@@ -7,5 +7,5 @@ public interface IFinancialRecordService
 {
     Task<FinancialRecordModel[]> UpsertFinancialRecords(FinancialRecordModel[] records, CancellationToken token);
     
-    Task<FinancialStatementModel[]> GetFinancialRecords(GetFinancialRecordsCommand command, CancellationToken token);
+    Task<FinancialRecordModel[]> GetFinancialRecords(GetFinancialRecordsCommand command, CancellationToken token);
 }

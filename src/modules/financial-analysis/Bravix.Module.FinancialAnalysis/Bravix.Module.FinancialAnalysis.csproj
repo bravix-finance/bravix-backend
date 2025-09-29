@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
+    <PackageReference Include="ISO3166" />
     <PackageReference Include="NodaMoney" />
     <PackageReference Include="UUIDNext" />
   </ItemGroup>
@@ -7,5 +8,8 @@
     <Folder Include="src\Api\Grpc\" />
     <Folder Include="src\Api\Rest\" />
     <Folder Include="tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\shared\Bravix.Shared.Common\Bravix.Shared.Common.csproj" />
   </ItemGroup>
 </Project>

@@ -31,6 +31,7 @@
     <Project Path="src\modules\user\Bravix.Module.User\Bravix.Module.User.csproj" Type="Classic C#" />
   </Folder>
   <Folder Name="/src/shared/">
+    <Project Path="src\shared\Bravix.Shared.Common\Bravix.Shared.Common.csproj" Type="Classic C#" />
     <Project Path="src\shared\Bravix.Shared.EuMetrics\Bravix.Shared.EuMetrics.csproj" Type="Classic C#" />
     <Project Path="src\shared\Bravix.Shared.Module\Bravix.Shared.Module.csproj" Type="Classic C#" />
   </Folder>

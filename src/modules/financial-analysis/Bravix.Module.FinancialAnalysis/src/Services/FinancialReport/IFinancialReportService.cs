@@ -4,5 +4,5 @@ namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport;
 
 public interface IFinancialReportService
 {
-    Task<FinancialReportModel> GetReport(GetFinancialReportCommand command, CancellationToken token);
+    Task<BalanceReportModel> GetBalanceReport(GetFinancialReportCommand command, CancellationToken token);
 }

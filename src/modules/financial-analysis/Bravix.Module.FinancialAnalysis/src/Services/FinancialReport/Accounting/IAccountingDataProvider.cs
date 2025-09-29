@@ -1,9 +1,8 @@
-﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
-using ISO3166;
+﻿using ISO3166;
 
-namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
+namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting;
 
-public interface IRegionalAccountingDataProvider
+public interface IAccountingDataProvider
 {
     public Country Country { get; }
     

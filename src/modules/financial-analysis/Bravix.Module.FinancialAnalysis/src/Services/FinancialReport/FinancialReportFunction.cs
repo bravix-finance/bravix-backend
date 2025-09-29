@@ -1,4 +1,4 @@
-﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
+﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting;
 using NodaMoney;
 
 namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport;

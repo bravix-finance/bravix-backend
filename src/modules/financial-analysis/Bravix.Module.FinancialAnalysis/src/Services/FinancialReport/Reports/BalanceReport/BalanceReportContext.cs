@@ -1,7 +1,6 @@
-﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
-using Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
+﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting;
 
-namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.ReportContexts;
+namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Reports.BalanceReport;
 
 public class BalanceReportContext : FinancialReportContext<BalanceReportModel>
 {
@@ -96,7 +95,7 @@ public class BalanceReportContext : FinancialReportContext<BalanceReportModel>
         private init => _functions[nameof(DebtServiceCoverageRatio)] = value;
     }
 
-    public BalanceReportContext(IRegionalAccountingDataProvider dataProvider) : base(dataProvider)
+    public BalanceReportContext(IAccountingDataProvider dataProvider) : base(dataProvider)
     {
          var currentLiquidityRatioFunc = dataProvider.CurrentAssets / dataProvider.CurrentLiabilities;
         CurrentLiquidityRatio = currentLiquidityRatioFunc.Current();

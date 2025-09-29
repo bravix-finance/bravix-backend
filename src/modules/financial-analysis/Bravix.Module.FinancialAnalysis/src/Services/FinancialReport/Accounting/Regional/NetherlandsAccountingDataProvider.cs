@@ -1,9 +1,9 @@
 ﻿using Bravix.Shared.Common;
 using ISO3166;
 
-namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
+namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting.Regional;
 
-public class NetherlandsAccountingDataProvider : IRegionalAccountingDataProvider
+public class NetherlandsAccountingDataProvider : IAccountingDataProvider
 {
     public Country Country => Countries.GetCountry("NL");
     public FinancialMetric Stocks => new FinancialMetric("3100") +

@@ -1,4 +1,5 @@
 ﻿using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
+using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Reports.BalanceReport;
 
 namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport;
 

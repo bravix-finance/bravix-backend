@@ -1,9 +1,8 @@
 ﻿using Bravix.Module.FinancialAnalysis.Services.FinancialRecord;
 using Bravix.Module.FinancialAnalysis.Services.FinancialRecord.Models;
+using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting;
 using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Models;
-using Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
-using Bravix.Module.FinancialAnalysis.Services.FinancialReport.ReportBuilders;
-using Bravix.Module.FinancialAnalysis.Services.FinancialReport.ReportContexts;
+using Bravix.Module.FinancialAnalysis.Services.FinancialReport.Reports.BalanceReport;
 
 namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport;
 
@@ -45,6 +44,6 @@ public class FinancialReportService : IFinancialReportService
 
         var reportBuilder = new BalanceReportBuilder();
         
-        return reportBuilder.Build(context, recordStorage);
+        return reportBuilder.Build(context, recordStorage, BalanceReportThresholds.Default);
     }
 }

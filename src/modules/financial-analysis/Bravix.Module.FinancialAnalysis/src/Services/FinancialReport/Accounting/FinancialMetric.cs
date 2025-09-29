@@ -1,7 +1,7 @@
 ﻿using Bravix.Module.FinancialAnalysis.Services.FinancialRecord.Models;
 using NodaMoney;
 
-namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.RegionalAccounting;
+namespace Bravix.Module.FinancialAnalysis.Services.FinancialReport.Accounting;
 
 public record struct FinancialMetric
 {

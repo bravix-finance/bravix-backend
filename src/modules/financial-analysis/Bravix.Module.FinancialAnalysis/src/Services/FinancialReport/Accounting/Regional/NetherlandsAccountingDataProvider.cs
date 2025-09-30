@@ -52,7 +52,7 @@ public class NetherlandsAccountingDataProvider : IAccountingDataProvider
     public FinancialMetric InventoryCost => new FinancialMetric("3100") +
                                             new FinancialMetric("3150");
 
-    public FinancialMetric NetProfit => new FinancialMetric("Resultaat");
+    public FinancialMetric NetProfit => new FinancialMetric("RESULTAAT");
     
     public FinancialMetric NetSales => new FinancialMetric("8110");
     
@@ -62,11 +62,11 @@ public class NetherlandsAccountingDataProvider : IAccountingDataProvider
     
     public FinancialMetric Revenue => new FinancialMetric("8110");
     
-    public FinancialMetric Assets => new FinancialMetric("Activa");
+    public FinancialMetric Assets => new FinancialMetric("ACTIVA");
     
-    public FinancialMetric Equity => new FinancialMetric("Eigen vermogen");
+    public FinancialMetric Equity => new FinancialMetric("EIGEN_VERMOGEN");
     
-    public FinancialMetric TotalCapital => new FinancialMetric("Passiva");
+    public FinancialMetric TotalCapital => new FinancialMetric("PASSIVA");
     
     public FinancialMetric TotalLiabilities => TotalCapital - Equity;
     
@@ -74,19 +74,19 @@ public class NetherlandsAccountingDataProvider : IAccountingDataProvider
     
     public FinancialMetric DeptPayments => new FinancialMetric("1990");
     
-    public FinancialMetric ProfitFromInvestment => new FinancialMetric("Resultaat");
+    public FinancialMetric ProfitFromInvestment => new FinancialMetric("RESULTAAT");
     
     public FinancialMetric InvestmentCosts => new FinancialMetric("0130") +
                                               new FinancialMetric("0160") +
                                               new FinancialMetric("0462") +
                                               new FinancialMetric("0463");
     
-    public FinancialMetric GeneralDept => new FinancialMetric("Passiva") -
-                                          new FinancialMetric("Eigen vermogen");
+    public FinancialMetric GeneralDept => new FinancialMetric("PASSIVA") -
+                                          new FinancialMetric("EIGEN_VERMOGEN");
     
-    public FinancialMetric EBITDA => new FinancialMetric("Resultaat") - new FinancialMetric("Afschrijvingen");
+    public FinancialMetric EBITDA => new FinancialMetric("RESULTAAT") - new FinancialMetric("AFSCHRIJVINGEN");
     
-    public FinancialMetric EBIT => new FinancialMetric("Resultaat") + new FinancialMetric("Afschrijvingen");
+    public FinancialMetric EBIT => new FinancialMetric("RESULTAAT") + new FinancialMetric("AFSCHRIJVINGEN");
     
     public FinancialMetric DeptService =>  new FinancialMetric("1990") +
                                            new FinancialMetric("4920") +

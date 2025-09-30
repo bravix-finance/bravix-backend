@@ -1,0 +1,136 @@
+﻿{
+  "name": "annual_report_container_v2",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "definitions": {
+      "Amt": {
+        "type": "object",
+        "nullable": true,
+        "description": "Numeric amount in minor currency units plus debit/credit flag.",
+        "required": [
+          "am",
+          "dc"
+        ],
+        "properties": {
+          "am": {
+            "type": "integer",
+            "nullable": true,
+            "description": "Value in minor units (e.g. cents)."
+          },
+          "dc": {
+            "type": "string",
+            "enum": [
+              "D",
+              "C"
+            ],
+            "nullable": true,
+            "description": "Debit (D), Credit (C)"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Section": {
+        "type": "object",
+        "nullable": true,
+        "description": "Single line item in a table, can have subsections(determined by background color, different naming pattern, font style etc.).",
+        "required": [
+          "rn",
+          "p",
+          "ss"
+        ],
+        "properties": {
+          "rn": {
+            "type": "string",
+            "nullable": true,
+            "description": "Exact row name as printed in the report."
+          },
+          "p": {
+            "type": "array",
+            "minItems": 0,
+            "description": "Periods inside row.",
+            "items": {
+              "$ref": "#/definitions/Period"
+            }
+          },
+          "ss": {
+            "type": "array",
+            "minItems": 0,
+            "description": "Optional subsections inside this subsection(determined by background color, different naming pattern, font style etc.).",
+            "items": {
+              "$ref": "#/definitions/Section"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "Period": {
+        "type": "object",
+        "required": [
+          "y",
+          "pt",
+          "a"
+        ],
+        "properties": {
+          "pt": {
+            "type": "string",
+            "enum": [
+              "FY",
+              "HY1",
+              "HY2",
+              "Q1",
+              "Q2",
+              "Q3",
+              "Q4"
+            ],
+            "nullable": true,
+            "description": "Period type: FY=full year, HY1/2=half year, Q1-Q4=quarter."
+          },
+          "y": {
+            "type": "integer",
+            "nullable": true,
+            "description": "Calendar year of this period."
+          },
+          "a": {
+            "$ref": "#/definitions/Amt"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "description": "Top-level container for an annual financial report with multiple reporting periods.",
+    "required": [
+      "cn",
+      "cur",
+      "fy",
+      "ss"
+    ],
+    "properties": {
+      "cn": {
+        "type": "string",
+        "nullable": true,
+        "description": "Company name as shown on the report."
+      },
+      "fy": {
+        "type": "integer",
+        "nullable": true,
+        "description": "Primary fiscal year of the report (4-digit)."
+      },
+      "cur": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$",
+        "nullable": true,
+        "description": "Base ISO-4217 currency code of the report (e.g., EUR, USD)."
+      },
+      "ss": {
+        "type": "array",
+        "minItems": 0,
+        "description": "Report sections.",
+        "items": {
+          "$ref": "#/definitions/Section"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}
